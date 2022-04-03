@@ -1,6 +1,6 @@
 {
   "name": "react-native-bouncy-checkbox-group-srbrahma",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Fully customizable bouncy checkbox group for React Native",
   "main": "./build/dist/BouncyCheckboxGroup.js",
   "repository": "git@github.com:WrathChaos/react-native-bouncy-checkbox-group.git",
@@ -27,7 +27,7 @@
     "rn"
   ],
   "scripts": {
-    "build": "cd lib && tsc && cp ../package.json ../build/dist/ && Echo Build completed!",
+    "build": "cd lib && tsc && cp ../package.json ../build/dist/",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
     "lint": "tslint -p tsconfig.json",
     "version": "npm run format && git add -A src",
